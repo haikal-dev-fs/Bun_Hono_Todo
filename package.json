@@ -1,0 +1,24 @@
+{
+  "name": "my-todo-api",
+  "version": "0.1.0",
+  "description": "A small Bun + Hono learning project: Todo API",
+  "scripts": {
+    "dev": "bun --hot src/index.ts",
+    "start": "bun src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haikal-dev-fs/Bun_Hono_Todo.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^6.14.0",
+    "hono": "^4.9.4",
+    "pg": "^8.16.3",
+    "prisma": "^6.14.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/pg": "^8.15.5"
+  }
+}

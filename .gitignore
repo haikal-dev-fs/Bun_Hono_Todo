@@ -1,0 +1,14 @@
+node_modules/
+/.venv
+/.idea
+.env
+*.log
+/.next
+dist/
+generated/
+*.sqlite
+/.DS_Store
+# deps
+node_modules/
+
+/src/generated/prisma
